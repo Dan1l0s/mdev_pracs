@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prac2</string>
+    <string name="button_name">button</string>
+    <string name="text">text_view</string>
+    <string name="edit_text">edit_text</string>
+    <string name="log_decl">LOG (decl)</string>
+    <string name="log_prog">LOG (prog)</string>
+</resources>
