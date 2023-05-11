@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">pr5</string>
+    <string name="go_to_first">1st fragment</string>
+    <string name="go_to_second">2nd fragment</string>
+    <string name="go_to_third">3rd fragment</string>
+    <string name="edit_text">Input text</string>
+</resources>

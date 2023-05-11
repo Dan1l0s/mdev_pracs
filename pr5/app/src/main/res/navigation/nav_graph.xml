@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragment_1">
+
+
+    <fragment
+        android:id="@+id/fragment_1"
+        android:name="com.example.pr5.Fragment1"
+        android:label="fragment_1"
+        tools:layout="@layout/fragment_1">
+        <action
+            android:id="@+id/fr1_fr2"
+            app:destination="@id/fragment_2" />
+        <action
+            android:id="@+id/fr1_fr3"
+            app:destination="@id/fragment_3" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_2"
+        android:name="com.example.pr5.Fragment2"
+        android:label="fragment_2"
+        tools:layout="@layout/fragment_2">
+        <action
+            android:id="@+id/fr2_fr1"
+            app:destination="@id/fragment_1" />
+        <action
+            android:id="@+id/fr2_fr3"
+            app:destination="@id/fragment_3" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_3"
+        android:name="com.example.pr5.Fragment3"
+        android:label="fragment_3"
+        tools:layout="@layout/fragment_3">
+        <action
+            android:id="@+id/fr3_fr1"
+            app:destination="@id/fragment_1" />
+        <action
+            android:id="@+id/fr3_fr2"
+            app:destination="@id/fragment_2" />
+    </fragment>
+
+</navigation>
